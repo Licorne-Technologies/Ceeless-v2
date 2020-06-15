@@ -1,0 +1,610 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;700&display=swap");
+.footer {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer p {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#contact-modal .menuItems {
+  background-color: transparent;
+  margin-right: 70px;
+}
+
+#contact-modal .menuItems .menuList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#contact-modal .menuItems a {
+  font-size: 20px;
+  color: white;
+  margin-right: 10px;
+}
+
+#contact-modal .menuItems a .fa {
+  background-color: transparent;
+  color: white;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  height: 60px;
+  width: 60px;
+}
+
+#contact-modal .menuItems a:hover .fa {
+  background-color: black;
+  color: white;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#contact-modal .menuItems a.active .fa {
+  background-color: black;
+  color: white;
+}
+
+.contactUs {
+  height: 100vh;
+  background-color: rgba(35, 35, 36, 0.9);
+  background-size: cover;
+}
+
+.contactUs .title, .contactUs h5 {
+  color: white;
+}
+
+.contactUs img {
+  max-height: 100vh;
+  width: 100%;
+}
+
+.contactUs .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+.contactUs .form .formRow {
+  margin: 10px 0;
+}
+
+.contactUs .form .formRow input, .contactUs .form .formRow textarea {
+  border: none;
+  border-left: 2px solid white;
+  padding: 10px;
+  color: white;
+  background-color: rgba(35, 35, 36, 0.9);
+  width: 500px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.contactUs .form .formRow input::focus, .contactUs .form .formRow textarea::focus {
+  border: none;
+  border-left: 2px solid white;
+  padding: 10px;
+  color: white;
+  background-color: rgba(35, 35, 36, 0.9);
+  outline: none !important;
+}
+
+.contactUs .form .formRow input::-webkit-input-placeholder, .contactUs .form .formRow textarea::-webkit-input-placeholder {
+  color: white;
+  line-height: 20px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.contactUs .form .formRow input:-ms-input-placeholder, .contactUs .form .formRow textarea:-ms-input-placeholder {
+  color: white;
+  line-height: 20px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.contactUs .form .formRow input::-ms-input-placeholder, .contactUs .form .formRow textarea::-ms-input-placeholder {
+  color: white;
+  line-height: 20px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.contactUs .form .formRow input::placeholder, .contactUs .form .formRow textarea::placeholder {
+  color: white;
+  line-height: 20px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.contactUs .form .formRow input[type="submit"]:hover {
+  color: black;
+  background-color: white;
+  font-weight: 700;
+}
+
+#about-modal .menuItems {
+  background-color: white;
+  margin-right: 70px;
+}
+
+#about-modal .menuItems .menuList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#about-modal .menuItems a {
+  font-size: 20px;
+  color: black;
+  margin-right: 10px;
+}
+
+#about-modal .menuItems a .fa {
+  background-color: white;
+  color: black;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  height: 60px;
+  width: 60px;
+}
+
+#about-modal .menuItems a:hover .fa {
+  background-color: black;
+  color: white;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#about-modal .menuItems a.active .fa {
+  background-color: black;
+  color: white;
+}
+
+.aboutUs .col {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.aboutUs .col .right {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
+
+.aboutUs .title {
+  padding-bottom: 30px;
+}
+
+.aboutUs p {
+  font-size: 20px;
+  line-height: 45px;
+  font-weight: 300;
+}
+
+#combo-modal .menuItems {
+  background-color: white;
+  margin-right: 70px;
+}
+
+#combo-modal .menuItems .menuList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#combo-modal .menuItems a {
+  font-size: 20px;
+  color: black;
+  margin-right: 10px;
+}
+
+#combo-modal .menuItems a .fa {
+  background-color: white;
+  color: black;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  height: 60px;
+  width: 60px;
+}
+
+#combo-modal .menuItems a:hover .fa {
+  background-color: black;
+  color: white;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#combo-modal .menuItems a.active .fa {
+  background-color: black;
+  color: white;
+}
+
+.comboSection .col {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.comboSection .title, .comboSection p {
+  padding-left: 30px;
+}
+
+.comboSection p {
+  font-size: 20px;
+  line-height: 45px;
+  font-weight: 300;
+}
+
+.comboSection .progressList li {
+  color: black;
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 20px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.comboSection .uk-progress::-webkit-progress-bar {
+  background-color: white;
+}
+
+.comboSection .uk-progress::-moz-progress-bar {
+  background-color: white;
+}
+
+.comboSection .uk-progress-dark::-webkit-progress-value {
+  background-color: black;
+}
+
+.comboSection .uk-progress-dark::-ms-fill {
+  background-color: black;
+}
+
+.jumboText {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.jumboText .card {
+  border: none;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.jumboText .menuItems {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.jumboText .menuItems a {
+  font-size: 20px;
+  color: black;
+}
+
+.jumboText .menuItems a .fa {
+  background-color: white;
+  color: black;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  height: 60px;
+  width: 60px;
+}
+
+.jumboText .menuItems a:hover .fa {
+  background-color: black;
+  color: white;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.jumboText .menuItems a.active .fa {
+  background-color: black;
+  color: white;
+}
+
+.message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.message h1 {
+  font-size: 70px;
+  color: black;
+  line-height: 100px;
+}
+
+.message p {
+  padding-top: 30px;
+  font-size: 20px;
+  color: black;
+}
+
+a.action-btn {
+  border: 1px solid black;
+  background-color: black;
+  width: 150px;
+  border-radius: 20px;
+  padding: 10px;
+  -webkit-box-shadow: 2px 20px 25px -15px rgba(0, 0, 0, 0.54);
+          box-shadow: 2px 20px 25px -15px rgba(0, 0, 0, 0.54);
+  color: white;
+  text-align: center;
+  line-height: 20px;
+}
+
+a.action-btn:hover {
+  text-decoration: none;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#menu-modal .row {
+  background-color: black;
+}
+
+.right img {
+  width: 100vw !important;
+  height: 100vh !important;
+  background-size: cover;
+}
+
+.right h1 {
+  line-height: 70px;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.right h5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.right h5 span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  width: 50%;
+  border-bottom: 2px solid white;
+}
+
+.menuIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menuIcon .long-bar, .menuIcon .short-bar {
+  border: 2px solid black;
+  margin-bottom: 5px;
+}
+
+.menuIcon .long-bar {
+  width: 33px;
+}
+
+.menuIcon .short-bar {
+  width: 20px;
+}
+
+.menuIcon:hover .long-bar {
+  width: 20px;
+  -webkit-transition: width 300ms ease-in-out 0s;
+  transition: width 300ms ease-in-out 0s;
+}
+
+.menuIcon:hover .short-bar {
+  width: 33px;
+}
+
+.uk-modal-full {
+  height: 100vh;
+  background-color: black;
+  overflow: hidden;
+}
+
+.uk-modal-close-full, .uk-close-large, .menuItems {
+  background-color: black;
+  color: white;
+}
+
+.menuItems {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menuList li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.menuList li a .fa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  margin-right: 7px;
+}
+
+.menuList li a:hover {
+  text-decoration: none;
+}
+
+.menuList li a:hover .fa {
+  background-color: white;
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+section {
+  height: 100vh;
+  margin-bottom: 50px;
+}
+
+.title {
+  color: black;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 760px) {
+  .wrapper {
+    margin: 0 50px;
+  }
+}
+/*# sourceMappingURL=stylesheet.css.map */

@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;700&display=swap");
+#contact-modal .menuItems {
+  background-color: transparent;
+  margin-right: 70px;
+}
+
+#contact-modal .menuItems .menuList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#contact-modal .menuItems a {
+  font-size: 20px;
+  color: white;
+  margin-right: 10px;
+}
+
+#contact-modal .menuItems a .fa {
+  background-color: transparent;
+  color: white;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  height: 60px;
+  width: 60px;
+}
+
+#contact-modal .menuItems a:hover .fa {
+  background-color: black;
+  color: white;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#contact-modal .menuItems a.active .fa {
+  background-color: black;
+  color: white;
+}
+
+.contactUs {
+  height: 100vh;
+  background-color: rgba(35, 35, 36, 0.9);
+  background-size: cover;
+}
+
+.contactUs .title, .contactUs h5 {
+  color: white;
+}
+
+.contactUs img {
+  max-height: 100vh;
+  width: 100%;
+}
+
+.contactUs .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+.contactUs .form .formRow {
+  margin: 10px 0;
+}
+
+.contactUs .form .formRow input, .contactUs .form .formRow textarea {
+  border: none;
+  border-left: 2px solid white;
+  padding: 10px;
+  color: white;
+  background-color: rgba(35, 35, 36, 0.9);
+  width: 500px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.contactUs .form .formRow input::focus, .contactUs .form .formRow textarea::focus {
+  border: none;
+  border-left: 2px solid white;
+  padding: 10px;
+  color: white;
+  background-color: rgba(35, 35, 36, 0.9);
+  outline: none !important;
+}
+
+.contactUs .form .formRow input::-webkit-input-placeholder, .contactUs .form .formRow textarea::-webkit-input-placeholder {
+  color: white;
+  line-height: 20px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.contactUs .form .formRow input:-ms-input-placeholder, .contactUs .form .formRow textarea:-ms-input-placeholder {
+  color: white;
+  line-height: 20px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.contactUs .form .formRow input::-ms-input-placeholder, .contactUs .form .formRow textarea::-ms-input-placeholder {
+  color: white;
+  line-height: 20px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.contactUs .form .formRow input::placeholder, .contactUs .form .formRow textarea::placeholder {
+  color: white;
+  line-height: 20px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.contactUs .form .formRow input[type="submit"]:hover {
+  color: black;
+  background-color: white;
+  font-weight: 700;
+}
+/*# sourceMappingURL=contact.css.map */

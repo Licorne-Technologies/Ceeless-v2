@@ -1,0 +1,15 @@
+@import 'variables';
+
+.comboSection {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .col {
+        height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+}

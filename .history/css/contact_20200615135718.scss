@@ -1,0 +1,9 @@
+@import 'variables';
+
+.contactUs {
+    background-color: $dark;
+    
+    .title, p{
+        color: $light;
+    }
+}

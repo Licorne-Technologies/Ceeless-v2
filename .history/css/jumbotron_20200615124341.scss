@@ -1,0 +1,17 @@
+@import 'variables';
+
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    h1{
+        font-size: $fontLarge;
+    }
+    p{
+        font-size: $fontSmall;
+    }
+}
+a.action-btn{
+    background-color: $dark;
+    
+}

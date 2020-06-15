@@ -1,0 +1,16 @@
+@import 'variables';
+
+.aboutUs {
+
+    .col {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    p {
+        font-size: $fontText;
+        line-height: $fontText;
+    }
+}

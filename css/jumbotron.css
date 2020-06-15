@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;700&display=swap");
+.jumboText {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.jumboText .card {
+  border: none;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.jumboText .menuItems {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.jumboText .menuItems a {
+  font-size: 20px;
+  color: black;
+}
+
+.jumboText .menuItems a .fa {
+  background-color: white;
+  color: black;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  height: 60px;
+  width: 60px;
+}
+
+.jumboText .menuItems a:hover .fa {
+  background-color: black;
+  color: white;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.jumboText .menuItems a.active .fa {
+  background-color: black;
+  color: white;
+}
+
+.message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.message h1 {
+  font-size: 70px;
+  color: black;
+  line-height: 100px;
+}
+
+.message p {
+  padding-top: 30px;
+  font-size: 20px;
+  color: black;
+}
+
+a.action-btn {
+  border: 1px solid black;
+  background-color: black;
+  width: 150px;
+  border-radius: 20px;
+  padding: 10px;
+  -webkit-box-shadow: 2px 20px 25px -15px rgba(0, 0, 0, 0.54);
+          box-shadow: 2px 20px 25px -15px rgba(0, 0, 0, 0.54);
+  color: white;
+  text-align: center;
+  line-height: 20px;
+}
+
+a.action-btn:hover {
+  text-decoration: none;
+}
+/*# sourceMappingURL=jumbotron.css.map */

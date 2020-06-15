@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;700&display=swap");
+#about-modal .menuItems {
+  background-color: white;
+  margin-right: 70px;
+}
+
+#about-modal .menuItems .menuList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#about-modal .menuItems a {
+  font-size: 20px;
+  color: black;
+  margin-right: 10px;
+}
+
+#about-modal .menuItems a .fa {
+  background-color: white;
+  color: black;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  height: 60px;
+  width: 60px;
+}
+
+#about-modal .menuItems a:hover .fa {
+  background-color: black;
+  color: white;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#about-modal .menuItems a.active .fa {
+  background-color: black;
+  color: white;
+}
+
+.aboutUs .col {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.aboutUs .col .right {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
+
+.aboutUs .title {
+  padding-bottom: 30px;
+}
+
+.aboutUs p {
+  font-size: 20px;
+  line-height: 45px;
+  font-weight: 300;
+}
+/*# sourceMappingURL=aboutUs.css.map */

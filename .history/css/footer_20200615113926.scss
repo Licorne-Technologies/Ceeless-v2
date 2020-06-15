@@ -1,0 +1,10 @@
+@import 'variables';
+
+.footer {
+    background-color: $dark;
+    display: flex;
+    align-items: center;
+    p{
+        color: $light;
+    }
+}

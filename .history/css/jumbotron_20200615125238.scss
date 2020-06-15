@@ -1,0 +1,61 @@
+@import 'variables';
+
+.jumboText {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .menuItems {
+        background-color: $light;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        a {
+            font-size: $fontText;
+            color: $dark;
+
+            .fa {
+                background-color: $light;
+                color: $dark;
+                margin-right: 0px;
+                height: 60px;
+                width: 60px;
+            }
+        }
+
+        a.active {
+            .fa {
+                background-color: $dark;
+                color: $light;
+            }
+        }
+    }
+}
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    h1{
+        font-size: $fontLarge;
+    }
+    p{
+        font-size: $fontText;
+    }
+}
+a.action-btn {
+    border: 1px solid $dark;
+    background-color: $dark;
+    width: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: $btn-shadow;
+    color: $light;
+    text-align: center;
+    line-height: 20px;
+    &:hover{
+        text-decoration: none;
+    }
+
+}

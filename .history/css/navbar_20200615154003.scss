@@ -1,0 +1,110 @@
+@import 'variables';
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.right{
+    
+    img{
+        width: 100vw !important;
+        height: 100vh !important;
+        background-size: cover;
+    }
+
+    h1{
+        line-height: $fontLarge;
+        font-size: $fontLarge;
+        font-weight: $fontHeavy;
+    }
+    h5 {
+        display: flex;
+        font-weight: $fontLight;
+        font-size: $fontText;
+        span {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: $light;
+            width: 50%;
+            border-bottom: 2px solid $light;
+            
+        }
+    }
+}
+.menuIcon {
+    display: flex;
+    flex-direction: column;
+        .long-bar,.short-bar{
+            border: 2px solid $dark;
+            margin-bottom: 5px;
+        }
+        .long-bar{
+            width: 33px;
+        }
+        .short-bar{
+            width: 20px;
+        }
+
+        &:hover{
+            .long-bar{
+                width: 20px;
+                transition: width 300ms ease-in-out 0s;
+                
+            }
+            .short-bar{
+                width: 33px;
+                
+            }
+        }
+}
+
+.uk-modal-full {
+    height: 100vh;
+    background-color: $dark;
+    overflow: hidden;
+}
+.uk-modal-close-full, .uk-close-large, .menuItems{
+    background-color: $dark;
+    color: $light;
+}
+.menuItems {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menuList {
+    li {
+        a {
+            display: flex;
+            align-items: center;
+            color: $light;
+            font-size: $fontSmall;
+            line-height: $fontSmall;
+
+            .fa {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+                background-color: $dark;
+                color: $light;
+                margin-right: 7px;
+            }
+
+            &:hover {
+                text-decoration: none;
+
+                .fa{
+                    background-color: $light;
+                    color: $dark;
+                }
+            }
+        }
+    }
+}

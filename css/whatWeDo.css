@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;700&display=swap");
+#combo-modal .menuItems {
+  background-color: white;
+  margin-right: 70px;
+}
+
+#combo-modal .menuItems .menuList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#combo-modal .menuItems a {
+  font-size: 20px;
+  color: black;
+  margin-right: 10px;
+}
+
+#combo-modal .menuItems a .fa {
+  background-color: white;
+  color: black;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  height: 60px;
+  width: 60px;
+}
+
+#combo-modal .menuItems a:hover .fa {
+  background-color: black;
+  color: white;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#combo-modal .menuItems a.active .fa {
+  background-color: black;
+  color: white;
+}
+
+.comboSection .col {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.comboSection .title, .comboSection p {
+  padding-left: 30px;
+}
+
+.comboSection p {
+  font-size: 20px;
+  line-height: 45px;
+  font-weight: 300;
+}
+
+.comboSection .progressList li {
+  color: black;
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 20px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.comboSection .uk-progress::-webkit-progress-bar {
+  background-color: white;
+}
+
+.comboSection .uk-progress::-moz-progress-bar {
+  background-color: white;
+}
+
+.comboSection .uk-progress-dark::-webkit-progress-value {
+  background-color: black;
+}
+
+.comboSection .uk-progress-dark::-ms-fill {
+  background-color: black;
+}
+/*# sourceMappingURL=whatWeDo.css.map */

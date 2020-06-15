@@ -1,0 +1,19 @@
+@import 'variables';
+
+.aboutUs {
+
+    .col {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .title {
+        padding-bottom: 30px;
+    }
+    p {
+        font-size: $fontText;
+        line-height: $fontSmall;
+        font-weight: $fontLight;
+    }
+}

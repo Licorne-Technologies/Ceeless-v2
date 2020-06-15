@@ -1,0 +1,45 @@
+@import 'variables';
+
+.contactUs {
+        height: 100vh;
+        background-color: rgba(35,35,36, .9);
+        background-size: cover;
+    .title, h5{
+        color: $light;
+    }
+    
+    img {
+        max-height: 100vh;
+        width: 100%;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+
+        .formRow {
+            margin: 10px 0;
+
+            input, textarea {
+                border: none;
+                // border-bottom: 2px solid $light;
+                padding: 10px;
+                color: $light;
+                background-color: rgba(35,35,36, .9);
+                width: 500px;
+                font-size:  $fontText;
+                margin-bottom: 20px;
+            }
+
+            input::placeholder, textarea::placeholder {
+                color: $light;
+                line-height: $fontText;
+                font-size:  $fontText;
+                padding: 5px;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@import 'variables';
+
+.contactUs {
+        height: 100vh;
+        background-color: rgba(35,35,36, .7);
+        background-size: cover;
+    .title, h5{
+        color: $light;
+    }
+    
+    img {
+        max-height: 100vh;
+        width: 100%;
+    }
+}

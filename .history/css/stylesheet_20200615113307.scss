@@ -1,0 +1,16 @@
+@import 'variables';
+@import 'footer';
+@import 'contact';
+@import 'aboutUs';
+@import 'whatWeDo';
+@import 'portfolio';
+@import 'jumbotron';
+@import 'navbar';
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: $font;
+}

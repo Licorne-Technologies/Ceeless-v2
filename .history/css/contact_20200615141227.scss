@@ -1,0 +1,14 @@
+@import 'variables';
+
+.contactUs {
+    
+    .title, h5{
+        color: $light;
+    }
+    margin-bottom: 50px;
+
+    img {
+        max-height: 100vh;
+        width: 50%;
+    }
+}

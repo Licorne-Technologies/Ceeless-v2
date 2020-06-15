@@ -1,0 +1,80 @@
+@import 'variables';
+
+
+#combo-modal {
+    .menuItems {
+        background-color: $light;
+        margin-right: 70px;
+        .menuList {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            
+        }
+
+        a {
+            font-size: $fontText;
+            color: $dark;
+            margin-right: 10px;
+
+            .fa {
+                background-color: $light;
+                color: $dark;
+                margin-right: 0px;
+                margin-bottom: 5px;
+                height: 60px;
+                width: 60px;
+            }
+
+            &:hover {
+                .fa {
+                    background-color: $dark;
+                    color: $light;
+                    transform: scale(1.2);
+                }
+            }
+        }
+
+        a.active {
+            .fa {
+                background-color: $dark;
+                color: $light;
+            }
+        }
+    }
+}
+.comboSection {
+
+    .col {
+        height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .title, p {
+        padding-left: 30px;
+    }
+    p{
+        font-size: $fontText;
+        line-height: $fontSmall;
+        font-weight: $fontLight;
+    }
+    .progressList {
+        li{
+            color: $dark;
+            font-weight: 500;
+            line-height: $fontText;
+            font-size: $fontText;
+            font-family: $font;
+        }
+    }
+    .uk-progress { // this is its background, you could add those to your created classes if you want to also modify this color
+        &::-webkit-progress-bar { background-color: $light; }
+        &::-moz-progress-bar { background-color: $light; }
+    }
+    .uk-progress-dark { // created class for customisation
+        &::-webkit-progress-value { background-color:$dark; } // those are the overflowing colors
+        &::-ms-fill { background-color: $dark; }
+    }
+    
+}

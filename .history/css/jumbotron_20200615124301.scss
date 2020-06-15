@@ -1,0 +1,11 @@
+@import 'variables';
+
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    h1{
+        font-size: $fontLarge;
+    }
+    
+}
