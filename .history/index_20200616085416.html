@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/css/uikit.min.css" />
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Font awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Ceeless || Licorne Technologies</title>
+</head>
+<body>
+ <main class="wrapper pt-5">
+     <!--Navigation Bar-->
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="" alt="logo">
+            </a>
+        </div>
+        <div class="menu">
+            <a class="menuIcon" href="#menu-modal" uk-toggle>
+                <span class="long-bar"></span>
+                <span class="short-bar"></span>
+                <span class="long-bar"></span>
+            </a>
+        </div>
+        <!--Menu Modal-->
+        <div id="menu-modal" class="uk-modal-full" uk-modal>
+            <div class="uk-modal-dialog">
+                <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+                <div class="row">
+                    <div class="col">
+                        <div class="menuItems">
+                            <ul class="menuList">
+                                <li>
+                                    <a href="index.html" class="active"><i class="fa fa-home"></i>Home</a>
+                                </li>
+                                <li>
+                                    <a href="#about-modal" uk-toggle><i class="fa fa-info"></i>About</a>
+                                </li>
+                                <li>
+                                    <a href="#combo-modal" uk-toggle><i class="fa fa-tasks" aria-hidden="true"></i>Portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="#contact-modal" uk-toggle><i class="fa fa-send-o"></i>Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col right">
+                        <!--Overlaid Gif-->
+                        <div class="uk-inline">
+                            <img src="assets/menuBg.jpeg" alt="gif">
+                            <div class="uk-overlay uk-light uk-position-center">
+                                <h1>Ceeless Designs</h1>
+                                <h5><span></span>Designing the future</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--End of Navigation Bar-->
+
+    <!--Jumbotron-->
+    <section class="jumboText">
+        <div class="row">
+            <div class="col-3">
+                <!--Menu icons-->
+                <div class="menuItems">
+                    <ul class="menuList">
+                        <li>
+                            <a href="index.html" class="active"><i class="fa fa-home"></i></a>
+                        </li>
+                        <li>
+                            <a href="index.html#about"><i class="fa fa-info"></i></a>
+                        </li>
+                        <li>
+                            <a href="index.html#portfolio"><i class="fa fa-tasks" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="index.html#contact"><i class="fa fa-send-o"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="message card w-75">
+                    <!--Message Text-->
+                    <h1>Ceeless Designs the future for those who create it.</h1>
+                    <p>Create the ultimate experience with Ceeless.</p>
+                    <!--Action Btn-->
+                    <a href="#contact-modal" uk-toggle class="action-btn">Start</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--End of Jumbotron-->
+
+    <!--Portfolio and What We Do Modal-->
+    <div id="combo-modal" class="uk-modal-full uk-animation-slide-right" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <section class="comboSection">
+                <div class="row">
+                    <div class="col">
+                        <!--Portfolio Gallery-->
+                        <div uk-slideshow="autoplay: true; autoplay-interval: 2000; pause-on-hover: true; animation: fade;" >
+                            <ul class="uk-slideshow-items" uk-height-viewport="min-height: 300">
+                                <li>
+                                    <img src="assets/DemoImage1.jpg" alt="" uk-cover>
+                                </li>
+                                <li>
+                                    <img src="assets/DemoImage2.jpg" alt="" uk-cover>
+                                </li>
+                                <li>
+                                    <img src="assets/DemoImage3.jpg" alt="" uk-cover>
+                                </li>
+                            </ul>
+                            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <!--Menu icons-->
+                        <div class="menuItems">
+                            <ul class="menuList">
+                                <li>
+                                    <a href="index.html" ><i class="fa fa-home"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#about-modal" uk-toggle><i class="fa fa-info"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#combo-modal" uk-toggle class="active"><i class="fa fa-tasks" aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#contact-modal" uk-toggle><i class="fa fa-send-o"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h2 class="title pt-5">What we do</h2>
+                        <p>Ceeless is a web design agency and we are focused on creating an online presence for brands and businesses that will drive growth.</p>
+                        <!--What we do Progress bar-->
+                        <ul class="progressList">
+                            <li>Brand Identity
+                                <progress id="brandIdentity-progressbar" class="uk-progress uk-progress-dark" value="10" max="80"></progress>
+                            </li>
+                            <li>Web Design
+                                <progress id="webDesign-progressbar" class="uk-progress uk-progress-dark" value="10" max="85"></progress>
+                            </li>
+                            <li>Web Development
+                                <progress id="webDev-progressbar" class="uk-progress uk-progress-dark" value="10" max="100"></progress>
+                            </li>
+                            <li>UI/UX
+                                <progress id="uiUx-progressbar" class="uk-progress uk-progress-dark" value="10" max="95"></progress>
+                            </li>
+                            <li>Software Design
+                                <progress id="softwareDesign-progressbar" class="uk-progress uk-progress-dark" value="10" max="90"></progress>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!--End of Modal-->
+
+    <!--Portfolio and What We Do Section-->
+    <section class="comboSection" id="portfolio">
+        <div class="row">
+            <div class="col">
+                <!--Portfolio Gallery-->
+                <div uk-slideshow="autoplay: true; autoplay-interval: 2000; pause-on-hover: true; animation: fade;" >
+                    <ul class="uk-slideshow-items" uk-height-viewport="min-height: 300">
+                        <li>
+                            <img src="assets/DemoImage1.jpg" alt="" uk-cover>
+                        </li>
+                        <li>
+                            <img src="assets/DemoImage2.jpg" alt="" uk-cover>
+                        </li>
+                        <li>
+                            <img src="assets/DemoImage3.jpg" alt="" uk-cover>
+                        </li>
+                    </ul>
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+                </div>
+            </div>
+            <div class="col">
+                <h2 class="title pt-5">What we do</h2>
+                <p>Ceeless is a web design agency and we are focused on creating an online presence for brands and businesses that will drive growth.</p>
+                <!--What we do Progress bar-->
+                <ul class="progressList">
+                    <li>Brand Identity
+                        <progress id="brandIdentity-progressbar" class="uk-progress uk-progress-dark" value="10" max="80"></progress>
+                    </li>
+                    <li>Web Design
+                        <progress id="webDesign-progressbar" class="uk-progress uk-progress-dark" value="10" max="85"></progress>
+                    </li>
+                    <li>Web Development
+                        <progress id="webDev-progressbar" class="uk-progress uk-progress-dark" value="10" max="100"></progress>
+                    </li>
+                    <li>UI/UX
+                        <progress id="uiUx-progressbar" class="uk-progress uk-progress-dark" value="10" max="95"></progress>
+                    </li>
+                    <li>Software Design
+                        <progress id="softwareDesign-progressbar" class="uk-progress uk-progress-dark" value="10" max="90"></progress>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--End of section-->
+
+    <!--About us Modal-->
+    <div id="about-modal" class="uk-modal-full uk-animation-slide-right" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <section class="aboutUs">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="title">Who we are</h2>
+                        <p>Ceeless is a web design and development agency founded in 2016, it became part of the Licorne Technology group in February 2020.</p>
+                        <p>Ceeless is focused on supporting Nigerian brands and businesses online.</p>
+                    </div>
+                    <div class="col right">
+                        <!--Menu icons-->
+                        <div class="menuItems">
+                            <ul class="menuList">
+                                <li>
+                                    <a href="index.html" ><i class="fa fa-home"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#about-modal" uk-toggle class="active"><i class="fa fa-info"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#combo-modal" uk-toggle><i class="fa fa-tasks" aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#contact-modal" uk-toggle><i class="fa fa-send-o"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!--End of Modal-->
+
+    <!--About us-->
+    <section class="aboutUs" id="about">
+        <div class="row">
+            <div class="col">
+                <h2 class="title">Who we are</h2>
+                <p>Ceeless is a web design and development agency founded in 2016, it became part of the Licorne Technology group in February 2020.</p>
+                <p>Ceeless is focused on supporting Nigerian brands and businesses online.</p>
+            </div>
+            <div class="col right">
+                <div uk-slider="center: false">
+                    <div class="uk-visible-toggle uk-light" tabindex="-1">
+                
+                        <ul class="uk-slider-items uk-child-width-1-3@s uk-grid">
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img src="images/photo.jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">Headline</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img src="images/dark.jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">Headline</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img src="images/light.jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">Headline</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img src="images/photo2.jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">Headline</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <img src="images/photo3.jpg" alt="">
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <h3 class="uk-card-title">Headline</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                
+                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                
+                    </div>
+                    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of section-->
+
+    <!--Contact us Modal-->
+    <div id="contact-modal" class="uk-modal-full uk-animation-slide-right" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <section class="contactUs">
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            <div class="uk-inline">
+                                <img src="assets/formBg.jpg" alt="">
+                                <div class="uk-overlay-primary uk-position-cover"></div>
+                                <div class="uk-overlay uk-position-bottom uk-light">
+                                    <h2 class="title">Work with us</h2>
+                                    <h5>on your next project or get in touch for a chat.</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <!--Menu icons-->
+                        <div class="menuItems">
+                            <ul class="menuList">
+                                <li>
+                                    <a href="index.html" ><i class="fa fa-home"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#about-modal" uk-toggle ><i class="fa fa-info"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#combo-modal" uk-toggle><i class="fa fa-tasks" aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#contact-modal" uk-toggle class="active"><i class="fa fa-send-o"></i></a>
+                                </li>
+                            </ul>
+                        <div class="form">
+                            <form id="contactForm" method="POST" action="">
+                                <div class="formRow">
+                                    <input type="text" placeholder="Name" required />
+                                    <div class="error"></div>
+                                </div>
+                                <div class="formRow">
+                                    <input type="email" placeholder="Email" required />
+                                    <div class="error"></div>
+                                </div>
+                                <div class="formRow">
+                                    <input type="text" placeholder="Phone Number" required />
+                                    <div class="error"></div>
+                                </div>
+                                <div class="formRow">
+                                    <textarea placeholder="Tell us about your project" rows="5" required></textarea>
+                                    <div class="error"></div>
+                                </div>
+                                <div class="formRow">
+                                    <input type="submit" value="SEND" />
+                                    <div class="error"></div>
+                                </div>
+                            </form>
+                        </div>
+                        <!--form-->
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!--End of Modal-->
+
+    <section class="contactUs" id="contact">
+        <div class="row">
+            <div class="col">
+                <div>
+                    <div class="uk-inline">
+                        <img src="assets/formBg.jpg" alt="">
+                        <div class="uk-overlay-primary uk-position-cover"></div>
+                        <div class="uk-overlay uk-position-bottom uk-light">
+                            <h2 class="title">Work with us</h2>
+                            <h5>on your next project or get in touch for a chat.</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form">
+                    <form id="contactForm" method="POST" action="">
+                        <div class="formRow">
+                            <input type="text" placeholder="Name" required />
+                            <div class="error"></div>
+                        </div>
+                        <div class="formRow">
+                            <input type="email" placeholder="Email" required />
+                            <div class="error"></div>
+                        </div>
+                        <div class="formRow">
+                            <input type="text" placeholder="Phone Number" required />
+                            <div class="error"></div>
+                        </div>
+                        <div class="formRow">
+                            <textarea placeholder="Tell us about your project" rows="5" required></textarea>
+                            <div class="error"></div>
+                        </div>
+                        <div class="formRow">
+                            <input type="submit" value="SEND" />
+                            <div class="error"></div>
+                        </div>
+                    </form>
+                </div>
+                <!--form-->
+            </div>
+        </div>
+    </section>
+ </main> 
+ <footer class="footer">
+     <p>&copy;Ceeless Designs | Licorne Technologies</p>
+ </footer>  
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit-icons.min.js"></script>
+<script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+</body>
+</html>

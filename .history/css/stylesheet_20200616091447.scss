@@ -1,0 +1,33 @@
+@import 'variables';
+@import 'footer';
+@import 'contact';
+@import 'aboutUs';
+@import 'whatWeDo';
+@import 'portfolio';
+@import 'jumbotron';
+@import 'navbar';
+@import 'cards';
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: $font;
+}
+ section {
+    min-height: 100vh;
+    margin: 100px 0px;
+}
+
+.title {
+    color: $dark;
+    font-size: $fontLarge;
+    font-weight: $fontHeavy;
+}
+@media screen and (min-width: 760px){
+    .wrapper {
+        margin: 0 50px;
+    }
+}
+
